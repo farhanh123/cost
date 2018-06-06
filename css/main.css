@@ -1,0 +1,199 @@
+/* --- General Styles --- */
+
+/* Font Smoothing */
+html {
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-font-smoothing: antialiased !important;
+    font-smoothing: antialiased !important;
+}
+@font-face {
+    font-family: 'Bebas Neue Regular';
+    src: url('../fonts/BebasNeueRegular/BebasNeueRegular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/BebasNeueRegular/BebasNeueRegular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/BebasNeueRegular/BebasNeueRegular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/BebasNeueRegular/BebasNeueRegular.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/BebasNeueRegular/BebasNeueRegular.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/BebasNeueRegular/BebasNeueRegular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+    font-family: 'Bebas Neue Book';
+    src: url('../fonts/BebasNeueBook/BebasNeueBook.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/BebasNeueBook/BebasNeueBook.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/BebasNeueBook/BebasNeueBook.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/BebasNeueBook/BebasNeueBook.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/BebasNeueBook/BebasNeueBook.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/BebasNeueBook/BebasNeueBook.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+    font-family: 'Proxima Nova Regular';
+    src: url('../fonts/ProximaNovaRegular/ProximaNovaA-Regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/ProximaNovaRegular/ProximaNovaA-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/ProximaNovaRegular/ProximaNovaA-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/ProximaNovaRegular/ProximaNovaA-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/ProximaNovaRegular/ProximaNovaA-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/ProximaNovaRegular/ProximaNovaA-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+/* Paragaph */
+p{
+    line-height: normal;
+}
+.info{
+    font-family: 'Proxima Nova Regular';
+    color : #8d8d8d;
+    line-height: 1.79;
+    margin: 0;
+    margin-top:20px;
+}
+
+/* Heading */
+h1{
+    font-size: 48px;
+}
+h2{
+    font-size: 40px;
+}
+  
+/* Lists */
+ul{
+    -webkit-padding-start: 0;
+    -moz-padding-start: 0px;
+    -ms-padding-start: 0px;
+    -o-padding-start: 0px;
+    list-style: none;
+    text-align: left;
+}
+
+/* Headline */
+.headline {
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+.title{
+    font-family: 'Bebas Neue Regular';
+    font-weight: 900;
+    margin:0;
+}
+.under{
+    font-family: 'Bebas Neue Book';
+    color : #8d8d8d;
+    margin:0;
+}
+.group{
+    display:inline-block;
+}
+
+/* - Navigation Menu - */
+.nav-menu{
+    background-color: transparent;
+    border-color: transparent;
+    border: none;
+    min-height: inherit;
+}
+.navbar-nav>li>a {
+       padding: 10px 20px;
+}
+.nav-menu .navbar-menu li a{
+    font-family: 'Bebas Neue Regular';
+    font-size : 14px;
+    font-weight: 900;
+    letter-spacing : 0.5px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #777;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    border:1.5px solid #42aa36;
+    color: #42aa36;
+    border-radius: 30px;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    background: none;
+    border:1.5px solid #42aa36;
+    color: #42aa36;
+    border-radius: 30px;
+}
+.nav-menu .navbar-menu > .active > a,
+.nav-menu .navbar-menu > .active > a:focus,
+.nav-menu .navbar-menu > .active > a:hover{
+    font-family: 'Bebas Neue Regular';
+}
+.navbar-brand{
+    cursor: pointer;
+}
+.navbar-menu{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.nav>li {
+    position: relative;
+    display: block;
+}
+
+/* --- Button --- */
+.btn-get{
+    font-family: 'Bebas Neue Regular';
+    font-size: 18px;
+    font-weight: 900;
+    color: #42aa36;
+    border-radius: 30px;
+    background-color: #fff;
+    border:1.5px solid #42aa36;
+    padding: 10px 30px;
+    margin-top: 25px;
+}
+.btn-get:hover{
+    color:#fff;
+    background-color: #42aa36;
+}
+.btn-gets{
+    font-family: 'Bebas Neue Regular';
+    font-size: 18px;
+    font-weight: 900;
+    color: #8d8d8d;
+    border-radius: 30px;
+    background-color: #fff;
+    border:1.5px solid #8d8d8d;
+    padding: 10px 30px;
+    margin-top: 25px;
+}
+.btn-gets:hover{
+    color: #fff;
+    background-color: #8d8d8d;
+}
+
+/* - Grid - */
+@media (min-width: 1200px){
+    .container {
+        width: 970px;
+    }
+}
+
+/* - Img-responsive - */
+.img-responsive{
+    display: inline-block;
+}
+
+/* --- Media Queries --- */
+@-ms-viewport{
+    width: device-width;
+}
+
+/* --- Retina Settings --- */
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+    
+    /* Header Background */
+    header{
+/*        background: url(../images/header-bg@2x.jpg) no-repeat;*/
+    }
+    
+    /* Services */
+}

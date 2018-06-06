@@ -1,0 +1,243 @@
+/* - Header - */
+.header {
+    position: relative;
+    z-index: 1;
+}
+.header-content{
+        background: url(../images/backgrounds/bg-header.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+}
+
+
+/* - Pilihan CSS - */
+.bg-custom {
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 0 0px 0 rgba(0, 0, 0, 0.2), 0 0 20px 0 rgba(0, 0, 0, 0.19);
+}
+.contractor{
+    text-align: center;
+}
+.job{
+    text-align: center;
+}
+.akun{
+    margin: 15px;
+}
+.garis{
+    border-right: 1px solid #ededed;
+}
+.circle-or {
+    position: relative;
+    display: inline-block;
+    background-color: #42aa36;
+    font-family: 'Bebas Neue Regular';
+    font-weight: 900;
+    color: #fff;
+    text-align: center;
+    padding: 26px 28px;
+    border-radius: 50%;
+    bottom: 12em;
+    left: 31em;
+}
+.circle-or h3{
+    display: inline-block;
+    margin:0;
+}
+
+
+/* - Expalin-Content CSS - */
+.explain-content{
+    margin-bottom: 70px;
+}
+.garis-b{
+    border-bottom: 1px solid #ededed;
+}
+.title-content{
+    text-align:center;
+    margin-bottom: 50px;
+}
+.title-content>.under{
+    font-size: 36px;
+}
+.title-content>.title{
+    font-size: 36px;
+}
+.wrapper-explain{
+    margin-top: 60px;
+}
+.wrapper-explain>.under{
+    font-size:30px;
+}
+.wrapper-explain>.title{
+    font-size:30px;
+}
+.device-1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+/* - Contractor-Content CSS - */
+.find-explain{
+    margin-bottom: 50px;
+}
+.find-cont{
+    margin-bottom:40px;
+}
+.find-under{
+    font-family: 'Proxima Nova Regular';
+    font-size: 24px;
+    color : #8d8d8d;
+    margin:0;
+}
+.find-title{
+    font-family: 'Proxima Nova Regular';
+    font-size: 30px;
+    margin:0;
+}
+.photo-find{
+    margin-top: 40px;
+}
+.seprate{
+    margin-right: 10px;
+}
+.circle-300{
+    display: inline-block;
+    background-color: #dedede;
+    text-align: center;
+    padding: 33px 38px;
+    border-radius: 50%;
+    position: relative;
+    top: 18px;
+}
+
+
+/* - Get-Trial CSS - */
+.get-trial{
+    margin-bottom:50px;
+}
+.device-2{
+    margin-bottom: 40px;
+}
+.trial-explain{
+    margin-top: 30px;
+}
+.trial-under{
+    font-family: 'Bebas Neue Regular';
+    font-size: 24px;
+    color : #8d8d8d;
+    margin:0;
+}
+.trial-title{
+    font-family: 'Bebas Neue Regular';
+    font-size: 30px;
+    font-weight: 900;
+    margin:0;
+}
+
+
+/* - Footer CSS - */
+.footer-x{
+    text-align: center;
+    margin-bottom:50px;
+}
+.copy{
+    width: 262px;
+    font-family: 'Proxima Nova Regular';
+    color : #8d8d8d;
+    margin: 0;
+    display: inline-block;
+}
+.green{
+    font-family: 'Proxima Nova Regular';
+    color : #42aa36;
+    margin: 0;
+    display: inline-block;
+}
+
+/* - Media Query CSS - */
+/* - max-width 991px - */
+@media (max-width:991px){
+    .circle-or {
+        position: relative;
+        display: inline-block;
+        background-color: #42aa36;
+        font-family: 'Bebas Neue Regular';
+        font-weight: 900;
+        color: #fff;
+        text-align: center;
+        padding: 26px 28px;
+        border-radius: 50%;
+        bottom: 12em;
+        left: 23em;
+    }
+}
+
+/* - max-width 767px - */
+@media (max-width:767px){
+    /* - Navigation CSS - */
+    .header {
+        position: relative;
+        z-index: 1;
+        margin-bottom: 40px;
+    }
+
+    /* - Navigation CSS - */
+    .navbar-toggle {
+        position: relative;
+        float: right;
+        padding: 9px 10px;
+        margin-top: 25px;
+        margin-right: 25px;
+        margin-bottom: 8px;
+        background-color: transparent;
+        background-image: none;
+        border: 1px solid transparent;
+        border-radius: 4px;
+    }
+    .navbar-collapse {
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-top: 25px;
+        overflow-x: visible;
+        -webkit-overflow-scrolling: touch;
+        border-top: none;
+        -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
+        box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
+    }
+
+    /* - Pilihan CSS - */
+    .garis{
+        border:none;
+    }
+    .circle-or{
+        display: none;
+    }
+
+    /* - Content CSS - */
+    .content{
+        text-align: center;
+    }
+    .title-content {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .wrapper-explain {
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+    .explain-content {
+        margin-bottom: 40px;
+    }
+    .photo-find {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .trial-explain {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
