@@ -1,0 +1,32 @@
+# FRONT-END RULES
+
+A. General Components
+1. Folder structure must be arranged like on front-end master folder
+2. Basic element for HTML must coded like on sample.html and for CSS like on main.css
+
+B. Slicing Contents
+1. Develop your icon to be placed on title bar. You have to slice logo from the design and convert it to icon using "http://converticon.com". Use 32x32, 64x64, 128x128 for the size. After that place it on icons folder.
+
+# For your HTML
+1. Give comment for every section on a page. The comment text must be taken from section design to make it understandable
+2. Give minimum 1 break (1 pressed enter) for every section
+3. Use 2 spaces, you can setting it on your text editor
+4. If you use Bootstrap framework, create "container" for every section and create "row" for every content (it means in one container, you can make two or more "row")
+5. Create your custom class for every content you want to style, don't use Bootstrap class except you forced to use it (this moment happen when you already styling your component but Bootstrap replaced it)
+
+# For your CSS
+1. Analyze your design, find general style for element (mostly the designer will make general style for element like "p", "h1...h6", "box", "thumbnail"). Take your general style code below "General Styles" comment
+2. Check your comment from HTML code and make it as your class name
+3. For landing page : 
+- Create comment for every section
+- For each section style code, give 2 break (2 pressed enter)
+4. For multipage :
+- Create comment for every page and section
+- For each page, give 2 break (2 pressed enter) and for each section give 1 break (1 pressed enter)
+5. Make sure to placed media query code below all desktop code (non media query code)
+6. For media query breakpoint
+- if you use desktop first layout, only use 1139px, 1199px, 991px, 767px, 639px, 479px, and 319px.
+- if you use mobile first layout, only use 480px, 768px, 800px, 992px, 1200px, 1400px
+7. You have permission to make new breakpoint on media query only when the layout truly cannot be fixed
+8. Like on above, give comment for every section or every page inside media query
+9. At least, make sure your style code not make the content collide with each other.
