@@ -92,6 +92,13 @@ ul{
     border: none;
     min-height: inherit;
 }
+.navbar-brand {
+    float: left;
+    padding: 30px;
+    font-size: 18px;
+    line-height: 20px;
+    height: auto;
+}
 .navbar-nav>li>a {
        padding: 10px 20px;
 }
@@ -104,14 +111,19 @@ ul{
 .navbar-default .navbar-nav>li>a {
     color: #777;
 }
-.navbar-default .navbar-nav>li>a:hover {
-    border:1.5px solid #42aa36;
+.navbar-default .navbar-nav>li>a{
+    border:1.5px solid transparent;
+    border-radius: 30px;
+}
+.navbar-default .navbar-nav>li>a:hover{
+    border-color:#42aa36;
     color: #42aa36;
     border-radius: 30px;
 }
+
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
     background: none;
-    border:1.5px solid #42aa36;
+    border-color:#42aa36;
     color: #42aa36;
     border-radius: 30px;
 }
@@ -123,9 +135,9 @@ ul{
 .navbar-brand{
     cursor: pointer;
 }
-.navbar-menu{
-    padding-top: 30px;
-    padding-bottom: 30px;
+.navbar-menu {
+    padding-top: 45px;
+    padding-bottom: 45px;
 }
 .nav>li {
     position: relative;
@@ -162,6 +174,9 @@ ul{
 .btn-gets:hover{
     color: #fff;
     background-color: #8d8d8d;
+}
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+    outline: none;
 }
 
 /* - Grid - */
