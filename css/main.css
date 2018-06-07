@@ -191,9 +191,41 @@ ul{
     display: inline-block;
 }
 
-/* --- Media Queries --- */
-@-ms-viewport{
-    width: device-width;
+/* --- Media query max-width:767px--- */
+@media (max-width:767px){
+    /* --- Navbar-navigation--- */
+    .navbar-brand {
+        float: left;
+        padding: 15px;
+        font-size: 18px;
+        line-height: 20px;
+        height: auto;
+    }
+    .navbar-menu {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    
+    /* --- Headline--- */
+    .headline {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    /* --- Button--- */
+    .btn-get {
+        font-family: 'Bebas Neue Regular';
+        font-size: 18px;
+        font-weight: 900;
+        color: #42aa36;
+        border-radius: 30px;
+        background-color: #fff;
+        border: 1.5px solid #42aa36;
+        padding: 10px 30px;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
 }
 
 /* --- Retina Settings --- */
